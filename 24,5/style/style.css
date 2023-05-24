@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(74, 62, 83);
+    color: white;
+}
+header{
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    width: 100%;
+    height: 80vh;
+    background-image: url("../img/pexels-garvin-st-villier-3692908.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 100px;
+    text-align: center;
+}
+
+.principal{
+    text-align: justify;
+    margin: 20px;
+}
+.principal p{
+    margin: 20px;
+}
+
+.principal article{
+    border: 2px dotted rgb(0, 162, 255);
+    margin: 10px 50px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.principal h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-gal{
+    width: 95%;
+    align-content: center;
+    margin: 0 auto;
+}
+
+div.galeria{
+    margin: 10px;
+    box-shadow: 2px 4px 8px rgb(0, 0, 0);
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.galeria img{
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.container-gal{
+    text-align: center;
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    h1 {
+      color: green;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  }
